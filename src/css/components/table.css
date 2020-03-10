@@ -1,0 +1,38 @@
+table {
+  width: 100%;
+  font-size: 14px;
+  border-collapse: collapse;
+
+  thead {
+    background-color: #eaedfa;
+
+    th {
+      height: 54px;
+      line-height: 54px;
+      font-weight: 400;
+      text-align: left;
+      padding: 0 24px;
+      cursor: pointer;
+
+      &:after {
+        content: '';
+        display: inline-block;
+        width: 6px;
+        height: 9px;
+        background-image: url("img/icons/arrows-top-bottom.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-left: 10px;
+      }
+    }
+  }
+
+  tbody {
+    td {
+      height: 40px;
+      line-height: 40px;
+      padding: 0 24px;
+      border-bottom: 1px solid #f4f5f8;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+
+/* ---------- */
+/* CHECKBOXES */
+/* ---------- */
+
+.checkbox-wrapper {
+  display: flex;
+  cursor: pointer;
+
+  .real-checkbox {
+    display: none;
+
+    &:checked ~ .fake-checkbox:before {
+      content: '';
+    }
+  }
+
+  .fake-checkbox {
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    overflow: hidden;
+    border: 1px solid #aaaeb7;
+    background-color: #fff;
+    margin-right: 8px;
+    position: relative;
+    flex-shrink: 0;
+
+    &:before {
+      width: 100%;
+      height: 100%;
+      background-color: #1536cb;
+      background-repeat: no-repeat;
+      background-image: url('img/icons/check-white.svg');
+      background-position: center;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+}

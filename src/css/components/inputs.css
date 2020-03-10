@@ -1,0 +1,132 @@
+
+/* ------ */
+/* INPUTS */
+/* ------ */
+
+/* Wrapper for any input */
+.input-wrapper {
+  position: relative;
+  height: 54px;
+  display: flex;
+  align-items: flex-end;
+  background-color: #f7f8fb;
+  border-bottom: 2px solid transparent;
+
+  /* Field name above text in input */
+  .field-name-title {
+    display: none;
+    height: 8px;
+    width: calc(100% - 30px);
+    position: absolute;
+    top: 9px;
+    left: 15px;
+    font-size: 8px;
+    font-weight: 700;
+    color: #000;
+  }
+
+  /* Regular input */
+  .input {
+    background-color: transparent;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 4px;
+    color: #000;
+    border: 0;
+    padding: 0 15px;
+    font-size: inherit;
+    width: 100%;
+    outline: 0;
+
+    &:focus {
+      height: 40px;
+      line-height: 40px;
+
+      ~ .field-name-title {
+        display: block;
+      }
+    }
+  }
+
+  /* Fake input when div instead of input and we append bold text (at login page for example) */
+  &.input-fake {
+    background-color: #f7f8fb;
+    border-radius: 4px;
+    display: flex;
+    width: 100%;
+
+    .input {
+      overflow: hidden;
+      white-space: nowrap;
+      width: auto;
+      padding-right: 0;
+
+      &:focus {
+        outline: 0;
+
+        ~ .appended-text {
+          height: 40px;
+          line-height: 40px;
+        }
+      }
+    }
+
+    /* Appended bold text */
+    .appended-text {
+      font-weight: 700;
+      line-height: 50px;
+    }
+
+    /* Disable border-radius for fake input */
+    &.focused {
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+  }
+
+  /* Password input */
+  &.input-password {
+    position: relative;
+
+    .input {
+      width: 100%;
+      padding-right: 55px;
+    }
+
+    &.big-dots .input {
+      font-size: 30px;
+      letter-spacing: 5px;
+
+      @media (max-width: 550px) {
+        font-size: 24px;
+        letter-spacing: 3px;
+      }
+    }
+
+    .password-eye {
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      right: 18px;
+      top: calc(50% - 10px);
+      background-position: center;
+      background-repeat: no-repeat;
+      cursor: pointer;
+      background-image: url('img/icons/eye-closed.svg');
+
+      &.visible {
+        background-image: url('img/icons/eye-opened.svg');
+      }
+    }
+  }
+
+  /* When input wrapper has .focused class */
+  &.focused {
+    border-color: #1536cb;
+  }
+
+  /* When input wrapper has .error class */
+  &.error {
+    border-color: #cb1538;
+  }
+}

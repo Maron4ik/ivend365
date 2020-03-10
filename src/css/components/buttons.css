@@ -1,0 +1,85 @@
+/* -------
+/* BUTTONS */
+/* ------- */
+
+/* .btn {
+  border: 1px solid #1b28cf;
+  color: #fff;
+  padding: 0 30px;
+  min-width: 150px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+
+  .blue {
+    background-color: #1b28cf;
+    padding: 8px 9px 8px 11px;
+    color: #ffffff;
+    font-family: "Encode Sans";
+    font-weight: 600;
+    line-height: 24px;
+  }
+
+  .white {
+    background-color: #ffffff;
+    border-color: #1536cb;
+    padding: 8px 9px 8px 11px;
+    color: #1b28cf;
+    font-family: "Encode Sans";
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: uppercase;
+
+    &:hover {
+      color: #fff;
+    }
+
+    &.transparent {
+      background-color: transparent;
+      color: #1536cb;
+    }
+  }
+
+  &.green {
+    background-color: #00a539;
+    border-color: #00a539;
+
+    &.disabled {
+      background-color: #05ca8b;
+      border-color: #05ca8b;
+      cursor: default;
+    }
+
+    &.transparent {
+      background-color: transparent;
+      border-color: #45484e;
+      color: #45484e;
+    }
+  }
+
+  &.gray {
+    background-color: #aaaeb7;
+    border-color: #aaaeb7;
+
+    &.disabled {
+      background-color: #05ca8b;
+      border-color: #05ca8b;
+      cursor: default;
+    }
+
+    &.transparent {
+      background-color: transparent;
+      border-color: #aaaeb7;
+      color: #aaaeb7;
+    }
+  }
+}
+
+a.btn {
+  display: table;
+} */

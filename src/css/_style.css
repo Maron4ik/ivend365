@@ -1,0 +1,13 @@
+/* Common */
+@import 'global.css';
+
+/* Components */
+@import 'components/buttons.css';
+
+/* Includes */
+@import 'includes/header.css';
+@import 'includes/footer.css';
+
+/* Pages */
+@import 'pages/main.css';
+

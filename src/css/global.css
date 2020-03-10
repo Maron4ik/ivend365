@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f4f5f8;
+  margin: 0;  
+  font-family: 'Encode Sans';
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  @media (max-width: 1440px) {
+    background-color: #fff;
+  }
+
+  * {
+    box-sizing: border-box;
+    padding: 0;
+  }
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+
+  &:hover {
+    color: #1536cb;
+  }
+}
+
+p {
+  margin-top: 0;
+}
+

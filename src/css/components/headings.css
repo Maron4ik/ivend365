@@ -1,0 +1,51 @@
+
+/* -------- */
+/* HEADINGS */
+/* -------- */
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  margin-top: 0;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.w100 { font-weight: 100 }
+.w200 { font-weight: 200 }
+.w300 { font-weight: 300 }
+.w400 { font-weight: 400 }
+.w500 { font-weight: 500 }
+.w600 { font-weight: 600 }
+.w700 { font-weight: 700 }
+.w800 { font-weight: 800 }
+.w900 { font-weight: 900 }
+
+.h1 {
+  font-size: 40px;
+}
+
+.h2 {
+  font-size: 32px;
+}
+
+.h3 {
+  font-size: 28px;
+  font-weight: 300;
+
+  @media (max-width: 550px) {
+    font-size: 21px;
+  }
+}
+
+.h4 {
+  font-size: 24px;
+}
+
+.h5 {
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.h6 {
+  font-size: 16px;
+  line-height: 22px;
+}

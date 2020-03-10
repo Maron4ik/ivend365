@@ -1,0 +1,104 @@
+
+/* -------- */
+/* TOOLTIPS */
+/* -------- */
+
+.tooltip {
+  padding: 24px 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.09);
+  position: absolute;
+  top: 0;
+  left: 0;
+
+
+
+  /* Triangle */
+
+  &:before {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.09);
+    width: 20px;
+    height: 30px;
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    transform: translateY(-50%);
+  }
+
+  &.top:before {
+    content: '▲';
+    top: -5px;
+    left: calc(50% - 10px);
+  }
+
+  &.right:before {
+    content: '▶';
+    top: calc(50% - 15px);
+    right: -16px;
+  }
+
+  &.bottom:before {
+    content: '▼';
+    bottom: -40px;
+    left: calc(50% - 10px);
+  }
+
+  &.left:before {
+    content: '◀';
+    top: calc(50% - 15px);
+    left: -16px;
+  }
+
+  &.to-left:before {
+    left: 20%;
+  }
+
+  &.to-right:before {
+    left: 80%;
+  }
+
+  &.to-top:before {
+    top: 20%;
+  }
+
+  &.to-bottom:before {
+    top: 80%;
+  }
+
+
+  /* Masking div */
+
+  &:after {
+    content: '';
+    position: absolute;
+    background-color: #fff;
+  }
+
+  &.top:after {
+    left: 0;
+    top: 0;
+    height: 7px;
+    width: 100%;
+  }
+
+  &.right:after {
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 7px;
+  }
+
+  &.bottom:after {
+    left: 0;
+    bottom: 0;
+    height: 7px;
+    width: 100%;
+  }
+
+  &.left:after {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 7px;
+  }
+}
