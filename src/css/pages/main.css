@@ -1,76 +1,89 @@
-.main_content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 1440px;
-  height: 620px;
-  text-align: center;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0.55)), url('img/intersection4.png');
 
-  h1 {
-    margin: 193px 0 0 0;
-    color: #1b28cf;
-    font-family: "Encode Sans";
-    font-size: 48px;
-    font-weight: 700;
-    text-transform: uppercase;
-  }
 
-  h2 {
-    margin: 40px 0 0 0;
-    color: #000000;
-    font-family: "Encode Sans";
-    font-size: 28px;
-    font-weight: 400;
-  }
+.main-content {
+    
+    max-width: 1440px;  
+    height: 620px;
+    
 
-  .btn_blue {
-    margin-top: 44px;
-    min-width: 320px;
-    height: 54px;
-    border-radius: 4px;
-    border: 1px solid #1b28cf;
-    background-color: #1b28cf;
-    color: #fff;
-    line-height: 24px;
-    text-align: center;
-    font-weight: 700;
-    font-size: 24px;
-    cursor: pointer;
-    text-transform: uppercase;
-    padding: 11px 45px 11px 45px;
-  }
-
-  .watch_video {
-    width: 138px;
-    height: 40px;
+  .bg {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    margin-top: 44px;
-
-    .video_icon {
-      width: 22px;
-      height: 16px;
+    text-align: center;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0.55)), url('img/intersection4.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 1440px;
+    background-size: 100% auto;
+    
+  
+    h1 {
+      margin: 193px 0 0 0;
+      color: #1b28cf;
+      font-family: "Encode Sans";
+      font-size: 48px;
+      font-weight: 700;
+      text-transform: uppercase;
     }
-
-    .video {
-      width: 90px;
-      height: 20px;
+  
+    h2 {
+      margin: 40px 0 0 0;
       color: #000000;
       font-family: "Encode Sans";
-      font-size: 16px;
+      font-size: 28px;
       font-weight: 400;
-      margin: 0 0 0 17px;
+    }
+  
+    .btn-blue {
+      margin-top: 44px;
+      min-width: 320px;
+      height: 54px;
+      border-radius: 4px;
+      border: 1px solid #1b28cf;
+      background-color: #1b28cf;
+      color: #fff;
+      line-height: 24px;
+      text-align: center;
+      font-weight: 700;
+      font-size: 24px;
+      cursor: pointer;
+      text-transform: uppercase;
+      padding: 11px 45px 11px 45px;
+    }
+  
+    .watch-video {
+      width: 138px;
+      height: 40px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-top: 44px;
+  
+      .video-icon {
+        width: 22px;
+        height: 16px;
+      }
+  
+      .video {
+        width: 90px;
+        height: 20px;
+        color: #000000;
+        font-family: "Encode Sans";
+        font-size: 16px;
+        font-weight: 400;
+        margin: 0 0 0 17px;
+      }
     }
   }
 }
 
-.main_help {
+
+.main-help {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 1440px;
+  max-width: 1440px;
   min-height: 677px;
   background-color: #ffffff;
 
@@ -149,7 +162,7 @@
 
   }
 
-  .btn_white {
+  .btn-white {
     margin-top: 48px;
     margin-bottom: 40px;
     min-width: 320px;
@@ -167,8 +180,8 @@
   }
 }
 
-.main_point {
-  width: 1440px;
+.main-point {
+  max-width: 1440px;
   height: 562px;
   display: flex;
   flex-direction: column;
@@ -198,7 +211,7 @@
     margin-bottom: 16px;
   }
 
-  .business_list {
+  .business-list {
     height: 240px;
     width: 1342px;
     display: flex;
@@ -206,7 +219,7 @@
     align-items: center;
     margin: 0 57px 0 41px;
 
-    .business_col {
+    .business-col {
       height: 240px;
       width: 422px;
       display: flex;
@@ -244,7 +257,7 @@
     }
   }
 
-  .btn_white {
+  .btn-white {
     margin-top: 56px;
     margin-bottom: 54px;
     min-width: 320px;
@@ -264,7 +277,7 @@
 }
 
 .blue {
-  width: 1440px;
+  max-width: 1440px;
   height: 230px;
   background-color: #1b28cf;
 }
@@ -273,7 +286,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 1440px;
+  max-width: 1440px;
   height: 457px;
   background-color: #ffffff;
 
@@ -288,7 +301,7 @@
     text-transform: uppercase;
     text-align: center;
   }
-
+  
   h2 {
     margin-top: 24px;
     width: 986px;
@@ -303,7 +316,7 @@
     margin-top: 30px;
   }
 
-  .btn_white {
+  .btn-white {
     margin-top: 24px;
     margin-bottom: 54px;
     min-width: 320px;
@@ -327,7 +340,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  width: 1440px;
+  max-width: 1440px;
   height: 580px;
   background-image: url('img/quickorder.png');
 
@@ -356,7 +369,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 1440px;
+  max-width: 1440px;
   height: 380px;
   background-color: #ffffff;
 
@@ -383,7 +396,7 @@
     line-height: 32px;
   }
 
-  .btn_white {
+  .btn-white {
     margin-top: 30px;
     margin-bottom: 54px;
     min-width: 320px;
@@ -403,7 +416,7 @@
 }
 
 .support2 {
-  width: 1440px;
+  max-width: 1440px;
   height: 644px;
   background-color: #e6eaff;
   display: flex;
@@ -447,7 +460,7 @@
         line-height: 32px;
       }
 
-      .btn_white {
+      .btn-white {
         align-self: flex-start;
         margin-top: 50px;
         margin-bottom: 0px;
@@ -471,7 +484,7 @@
       width: 719px;
       height: 41px;
 
-      .download_blue {
+      .download-blue {
         display: flex;
         width: 315px;
         height: 41px;
@@ -494,7 +507,7 @@
         }
       }
 
-      .download_green {
+      .download-green {
         margin-left: 100px;
         display: flex;
         width: 315px;

@@ -1,8 +1,9 @@
 .header {
-  width: 1440px;
+  max-width: 1440px;
+  /* width: 100%; */
   display: flex;
   align-items: center;
-  flex-flow: row nowrap;
+  flex-flow: row;
   background-color: #fff;
   height: 72px;
 
@@ -17,7 +18,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 264px;
+    /* margin-left: 264px; */
 
     .item {
       display: flex;
@@ -43,7 +44,7 @@
     }
   }
 
-  .btn_blue {
+  .btn-blue {
     margin: 16px 0 16px 14px;
     min-width: 150px;
     height: 40px;
@@ -60,7 +61,7 @@
     padding: 8px 9px 8px 11px;
   }
 
-  .btn_white {
+  .btn-white {
     margin: 16px;
     min-width: 150px;
     height: 40px;

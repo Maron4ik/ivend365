@@ -2,142 +2,186 @@ extends _layout.pug
 
 block page
   body
-    //- START SMART SELLING TODAY
-    section
-      div.main_content
+    
+    //- #############################################################
+    //- # --------------- START SMART SELLING TODAY --------------  #
+    //- #############################################################
+    section.main-content
+      div.bg
         h1 START SMART SELLING TODAY
         h2 Free 30 day trial. No credit card required.
-        a.btn_blue(href="/") FREE TRIAL
-        a.watch_video(href="/")
-          img.video_icon(src="img/icons/video_icon.png")
+        
+        a.btn-blue(href="/") FREE TRIAL
+        
+        a.watch-video(href="/")
+          img.video-icon(src="img/icons/main/video-icon.svg")
           div.video Watch video
-    //- How WE Help Your Business
+
+    //- #############################################################
+    //- # --------------  How WE Help Your Business --------------- #
+    //- #############################################################
     section
-      div.main_help
+      div.main-help
         h1 How WE Help Your Business
         h2 Effortlessly run retail operations with a feature-rich Point of Sale solution available on the cloud.
+        
         div.block1
           div.item
-            img.icon(img src="img/icons/main/help/drive.png")
+            img.icon(img src="img/icons/main/help/drive.svg")
             div.content
               div.title Drive sales with speed and agility
               p Running a retail business is easy with a cloud-based, Point of Sale solution. Start selling today with intuitive tools that drive customer acquisition, increase average order size, and make the dream of a long lasting, loyal customer relationships a reality.
+          
           div.item
-            img.icon(img src="img/icons/main/help/shop.png")
+            img.icon(img src="img/icons/main/help/shop.svg")
             div.content
               div.title Multi outlet retail ready
               p iVend365 delivers powerful Point of Sale and retail tools that are suitable for a single store environment, a pop-up shop, a mobile operation or multiple stores. Scale up or down services on-the-go as your business expands.
+          
           div.item
-            img.icon(img src="img/icons/main/help/up.png")
+            img.icon(img src="img/icons/main/help/up.svg")
             div.content
               div.title Deliver on shopper demand
               p At a glance visibility into Product, Sales, Inventory, Store or Workforce performance keeps you fully informed. Real-time business KPIs presented in flexible, customizable reports allows you to grow and accurately merchandise what your shoppers want most.
+                
         div.block1
+          
           div.item
-            img.icon(img src="img/icons/main/help/rain.png")
+            img.icon(img src="img/icons/main/help/rain.svg")
             div.content
               div.title Sell more, uninterrupted
               p iVend365 POS offers 100% availability, meaning you can close more sales, faster with zero downtime. Our cloud-based solution allows you to keep selling even without the internet.
+          
           div.item
-            img.icon(img src="img/icons/main/help/shield.png")
+            img.icon(img src="img/icons/main/help/shield.svg")
             div.content
               div.title Safe, secure retail
               p iVend365 delivers powerful Point of Sale and retail tools that are suitable for a single store environment, a pop-up shop, a mobile operation or multiple stores. Scale up or down services on-the-go as your business expands.
+          
           div.item
-            img.icon(img src="img/icons/main/help/hardware.png")
+            img.icon(img src="img/icons/main/help/hardware.svg")
             div.content
               div.title No hardware handcuffs
               p At a glance visibility into Product, Sales, Inventory, Store or Workforce performance keeps you fully informed. Real-time business KPIs presented in flexible, customizable reports allows you to grow and accurately merchandise what your shoppers want most.
-        a.btn_white(href="/") SIGN UP FOR FREE
-    //- Point of Sale tailored to your unique business needs
+        
+        a.btn-white(href="/") SIGN UP FOR FREE
+    
+    //- #############################################################
+    //- # -- Point of Sale tailored to your unique business needs - #
+    //- #############################################################
     section 
-      div.main_point
+      div.main-point
         h1 Point of Sale tailored to your unique business needs
         h2 Transform your business with iVend365 – POS designed for what you sell
-        div.business_list
-          div.business_col
+        div.business-list
+
+          div.business-col
             div.item
               div.label
-                img(img src="img/icons/main/point/fashion.png")
+                img(img src="img/icons/main/point/fashion.svg")
               p Fashion Boutiques
             div.item
               div.label
-                img(img src="img/icons/main/point/grocery.png")
+                img(img src="img/icons/main/point/grocery.svg")
               p Grocery & Bakeries
             div.item
               div.label
-                img(img src="img/icons/main/point/sport.png")
+                img(img src="img/icons/main/point/sport.svg")
               p Sporting Goods
             
-          div.business_col
+          div.business-col
             div.item
               div.label
-                img(img src="img/icons/main/point/shoe.png")
+                img(img src="img/icons/main/point/shoe.svg")
               p Shoe Stores
             div.item
               div.label
-                img(img src="img/icons/main/point/wine.png")
+                img(img src="img/icons/main/point/wine.svg")
               p Wineries & Breweries
             div.item
               div.label
-                img(img src="img/icons/main/point/electronics.png")
+                img(img src="img/icons/main/point/electronics.svg")
               p Electronics & Multimedia
             
-          div.business_col
+          div.business-col
             div.item
               div.label
-                img(img src="img/icons/main/point/cafe.png")
+                img(img src="img/icons/main/point/cafe.svg")
               p Cafes & Restaurants
             div.item
               div.label
-                img(img src="img/icons/main/point/furniture.png")
+                img(img src="img/icons/main/point/furniture.svg")
               p Furniture & Home Decor
             div.item
               div.label
-                img(img src="img/icons/main/point/explore.png")
+                img(img src="img/icons/main/point/explore.svg")
               p Explore more business types
             
-        a.btn_white(href="/") SIGN UP FOR FREE
-    //- BLUE
+        a.btn-white(href="/") SIGN UP FOR FREE
+    
+    //- #############################################################
+    //- # ----------------------- BLUE ---------------------------- #
+    //- #############################################################
     section.blue
-    //- OUR PARTNERS
+
+    //- #############################################################
+    //- # ------------------- OUR PARTNERS ------------------------ #
+    //- #############################################################
     section
       div.partners 
         h1 OUR PARTNERS
         h2 iVend365 integrates seamlessly with a number of hardware suppliers, <br> payment processors and 3rd party applications via API in order to fit the needs of your business.
+        
         img(src="img/icons/main/partners/partners.png", alt="")
-        a.btn_white(href="/") BECOME OUR PARTNER 
-    //- Are you ready to start selling?
+        
+        a.btn-white(href="/") BECOME OUR PARTNER 
+    
+    //- #############################################################
+    //- # ----------- Are you ready to start selling? ------------- #
+    //- #############################################################
     section
       div.start
         h1 Are you ready to start selling?
         h2 Move your business forward with the Point of Sale solution that has every tool you need to <br> optimize your retail operations. Modernize your retail environment with easy to use <br> software that runs on sleek iPad and Android devices.
-    //- 24/7 Support. We got you.
+    
+    //- #############################################################
+    //- # ----------- 1 - 24/7 Support. We got you. --------------- #
+    //- #############################################################
     section
       div.support
         h1 24/7 Support. We got you.
         h2 iVend365 support processes are managed centrally from our 24/7 Global Support Portal.<br> Comprehensive support for iVend365 is available by email and via our online web portal to help<br> you start selling in no time!
-        a.btn_white(href="/") ASK AWAY
-    //- 24/7 Support. We got you.
+        
+        a.btn-white(href="/") ASK AWAY
+    
+    //- #############################################################
+    //- # ------------- 2 - 24/7 Support. We got you. ------------- #
+    //- #############################################################
     section
       div.support2
         div.left
           div.content
             h1 24/7 Support. We got you.
             h2 Move your business forward with our free, no commitment, no credit card <br> required, trial.
-            a.btn_white(href="/") START THE FREE TRIAL
+            a.btn-white(href="/") START THE FREE TRIAL
           div.app
-            a.download_blue(href="/")
-              img.icon(src="img/icons/main/download_blue.png")
+            a.download-blue(href="/")
+              img.icon(src="img/icons/main/download-blue.png")
               p DOWNLOAD THE APP 
-            a.download_green(href="/")
-              img.icon(src="img/icons/main/download_.png")
+            a.download-green(href="/")
+              img.icon(src="img/icons/main/download-.png")
               p DOWNLOAD THE APP
         div.right
           img(src="img/app.png", alt="")
-    //- Features
+    
+    //- #############################################################
+    //- # ----------------------- Features ------------------------ #
+    //- #############################################################
     section 
       div
-    //- CONTACT
+    
+    //- #############################################################
+    //- # ------------------------ CONTACT ------------------------ #
+    //- #############################################################
     section
       div 
